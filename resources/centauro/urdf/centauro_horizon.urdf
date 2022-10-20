@@ -36,7 +36,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/pelvis.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/pelvis.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -83,7 +83,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/link1_no_head.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/link1_no_head.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -117,7 +117,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/ShoulderPitch.STL" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderPitch.STL" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -138,7 +138,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/ShoulderRoll.STL" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderRoll.STL" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -160,7 +160,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/ShoulderYaw.STL" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderYaw.STL" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -181,7 +181,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/Elbow.STL" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/Elbow.STL" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -203,7 +203,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/Forearm.STL" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/Forearm.STL" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -224,7 +224,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/ForearmPitch.STL" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ForearmPitch.STL" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -245,7 +245,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/ForearmYaw.STL" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ForearmYaw.STL" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -362,7 +362,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/ShoulderPitch.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderPitch.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -383,7 +383,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/ShoulderRoll.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderRoll.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -405,7 +405,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/ShoulderYaw.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderYaw.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -426,7 +426,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/Elbow.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/Elbow.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -448,7 +448,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/Forearm.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/Forearm.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -469,7 +469,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/ForearmPitch.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ForearmPitch.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -490,7 +490,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/ForearmYaw.STL" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ForearmYaw.STL" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -605,7 +605,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry name="ball1_collision">
-        <mesh filename="package://centauro_urdf/meshes/simple/BallHand.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/BallHand.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -647,7 +647,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry name="ball2_collision">
-        <mesh filename="package://centauro_urdf/meshes/simple/BallHand.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/BallHand.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -690,7 +690,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/head-base_mesh.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/head-base_mesh.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -710,7 +710,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/lidar_mesh.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/lidar_mesh.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -730,7 +730,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/simple/neck-pitch_mesh.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/neck-pitch_mesh.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1665,7 +1665,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/hip-yaw.stl" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-yaw.stl" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1685,7 +1685,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 -0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 -0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1706,7 +1706,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/knee.stl" scale="0.001 0.001 -0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/knee.stl" scale="0.001 0.001 -0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1726,7 +1726,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 -0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 -0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1747,7 +1747,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/ankle-yaw.stl" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-yaw.stl" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1844,7 +1844,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/hip-yaw.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-yaw.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1864,7 +1864,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1885,7 +1885,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/knee.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/knee.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1905,7 +1905,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -1926,7 +1926,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/ankle-yaw.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-yaw.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -2023,7 +2023,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/hip-yaw.stl" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-yaw.stl" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -2043,7 +2043,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 -0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 -0.001"/>
       </geometry>
     </collision>
   </link>
@@ -2064,7 +2064,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/knee.stl" scale="0.001 0.001 -0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/knee.stl" scale="0.001 0.001 -0.001"/>
       </geometry>
     </collision>
   </link>
@@ -2084,7 +2084,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 -0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 -0.001"/>
       </geometry>
     </collision>
   </link>
@@ -2105,7 +2105,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/ankle-yaw.stl" scale="0.001 -0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-yaw.stl" scale="0.001 -0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -2202,7 +2202,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/hip-yaw.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-yaw.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -2222,7 +2222,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -2243,7 +2243,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/knee.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/knee.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -2263,7 +2263,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
@@ -2284,7 +2284,7 @@
     <collision>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/collision/ankle-yaw.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-yaw.stl" scale="0.001 0.001 0.001"/>
       </geometry>
     </collision>
   </link>
