@@ -34,9 +34,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0 0.0"/>
+      <origin xyz="-0.005084999999999992 2.00284e-07 0.03057945" rpy="3.141584708121066 1.5478729636744712 3.14158452386424"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/pelvis.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.213204" length="0.38594139791384763"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.198005 0.000000 0.035003" rpy="3.141584708121066 1.5478729636744712 3.14158452386424"/>
+      <geometry>
+        <sphere radius="0.213204"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.187835 0.000000 0.026156" rpy="3.141584708121066 1.5478729636744712 3.14158452386424"/>
+      <geometry>
+        <sphere radius="0.213204"/>
       </geometry>
     </collision>
   </link>
@@ -81,9 +93,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0 0.0"/>
+      <origin xyz="-3.2165000000000015e-05 9.785000000000002e-05 0.07465275" rpy="1.5666391113102787 -0.01588146658428072 -0.0158155835137567"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/link1_no_head.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.158224" length="0.09543675990850982"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000726 0.047810 0.074454" rpy="1.5666391113102787 -0.01588146658428072 -0.0158155835137567"/>
+      <geometry>
+        <sphere radius="0.158224"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000790 -0.047614 0.074851" rpy="1.5666391113102787 -0.01588146658428072 -0.0158155835137567"/>
+      <geometry>
+        <sphere radius="0.158224"/>
       </geometry>
     </collision>
   </link>
@@ -115,9 +139,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.017831411999999998 0.05324115 2.3169000000000008e-05" rpy="-1.6903347176271586 1.4526491831510902 -1.5721974565036339"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderPitch.STL" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0698859" length="0.03739768494560427"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000737 0.051053 0.000286" rpy="-1.6903347176271586 1.4526491831510902 -1.5721974565036339"/>
+      <geometry>
+        <sphere radius="0.0698859"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.036400 0.055429 -0.000240" rpy="-1.6903347176271586 1.4526491831510902 -1.5721974565036339"/>
+      <geometry>
+        <sphere radius="0.0698859"/>
       </geometry>
     </collision>
   </link>
@@ -136,9 +172,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.0637382 4.0379999999999995e-07 -0.064359175" rpy="3.141581408692036 0.43013736369295724 3.141541177080914"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderRoll.STL" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0700645" length="0.12799269981445732"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.037052 0.000001 -0.006192" rpy="3.141581408692036 0.43013736369295724 3.141541177080914"/>
+      <geometry>
+        <sphere radius="0.0700645"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.090424 -0.000000 -0.122526" rpy="3.141581408692036 0.43013736369295724 3.141541177080914"/>
+      <geometry>
+        <sphere radius="0.0700645"/>
       </geometry>
     </collision>
   </link>
@@ -158,9 +206,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.0073075385949999995 -0.0040911384949999996 -0.03662884" rpy="3.0024238046134086 0.2429098209130052 2.103907539504161"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderYaw.STL" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0896121" length="0.06082252644344949"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000007 0.000004 -0.007396" rpy="3.0024238046134086 0.2429098209130052 2.103907539504161"/>
+      <geometry>
+        <sphere radius="0.0896121"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.014622 -0.008186 -0.065862" rpy="3.0024238046134086 0.2429098209130052 2.103907539504161"/>
+      <geometry>
+        <sphere radius="0.0896121"/>
       </geometry>
     </collision>
   </link>
@@ -179,9 +239,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-0.00746020465 -0.0408499 -0.0404292381" rpy="-0.33854605247629793 0.17337814940326016 -0.029704070188628324"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/Elbow.STL" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0600429" length="0.08713418572944408"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.014976 -0.055102 -0.080907" rpy="-0.33854605247629793 0.17337814940326016 -0.029704070188628324"/>
+      <geometry>
+        <sphere radius="0.0600429"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000056 -0.026598 0.000049" rpy="-0.33854605247629793 0.17337814940326016 -0.029704070188628324"/>
+      <geometry>
+        <sphere radius="0.0600429"/>
       </geometry>
     </collision>
   </link>
@@ -201,9 +273,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-3.7982729999999996e-06 0.00576208 -0.08227100000000001" rpy="-0.19504999679008256 0.00010897068899718279 -1.0661187695164793e-05"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/Forearm.STL" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0804108" length="0.08434739747702548"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000008 -0.002412 -0.123645" rpy="-0.19504999679008256 0.00010897068899718279 -1.0661187695164793e-05"/>
+      <geometry>
+        <sphere radius="0.0804108"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000001 0.013936 -0.040897" rpy="-0.19504999679008256 0.00010897068899718279 -1.0661187695164793e-05"/>
+      <geometry>
+        <sphere radius="0.0804108"/>
       </geometry>
     </collision>
   </link>
@@ -222,9 +306,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="1.1095500000000002e-06 -0.04345545 -0.05749733" rpy="-0.15592455942442648 -0.0006430984043059979 5.0239247340461654e-05"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ForearmPitch.STL" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0583263" length="0.11425141871384588"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000038 -0.052327 -0.113930" rpy="-0.15592455942442648 -0.0006430984043059979 5.0239247340461654e-05"/>
+      <geometry>
+        <sphere radius="0.0583263"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000036 -0.034584 -0.001065" rpy="-0.15592455942442648 -0.0006430984043059979 5.0239247340461654e-05"/>
+      <geometry>
+        <sphere radius="0.0583263"/>
       </geometry>
     </collision>
   </link>
@@ -243,9 +339,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.0 0.0 0.0101335" rpy="-1.5707963267948966 -0.2627330208352526 0.2627330208352526"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ForearmYaw.STL" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0207073" length="0.009167307493588288"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.001190 -0.004426 0.010134" rpy="-1.5707963267948966 -0.2627330208352526 0.2627330208352526"/>
+      <geometry>
+        <sphere radius="0.0207073"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.001190 0.004426 0.010134" rpy="-1.5707963267948966 -0.2627330208352526 0.2627330208352526"/>
+      <geometry>
+        <sphere radius="0.0207073"/>
       </geometry>
     </collision>
   </link>
@@ -360,9 +468,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.017831411999999998 -0.05324115 2.3169000000000008e-05" rpy="1.6903347176271586 1.4526491831510902 1.5721974565036339"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderPitch.STL" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0698859" length="0.03739768494560427"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000737 -0.051053 0.000286" rpy="1.6903347176271586 1.4526491831510902 1.5721974565036339"/>
+      <geometry>
+        <sphere radius="0.0698859"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.036400 -0.055429 -0.000240" rpy="1.6903347176271586 1.4526491831510902 1.5721974565036339"/>
+      <geometry>
+        <sphere radius="0.0698859"/>
       </geometry>
     </collision>
   </link>
@@ -381,9 +501,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.0637382 -4.0379999999999995e-07 -0.064359175" rpy="-3.141581408692036 0.43013736369295724 -3.141541177080914"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderRoll.STL" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0700645" length="0.12799269981445732"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.037052 -0.000001 -0.006192" rpy="-3.141581408692036 0.43013736369295724 -3.141541177080914"/>
+      <geometry>
+        <sphere radius="0.0700645"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.090424 0.000000 -0.122526" rpy="-3.141581408692036 0.43013736369295724 -3.141541177080914"/>
+      <geometry>
+        <sphere radius="0.0700645"/>
       </geometry>
     </collision>
   </link>
@@ -403,9 +535,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.0073075385949999995 0.0040911384949999996 -0.03662884" rpy="-3.0024238046134086 0.2429098209130052 -2.103907539504161"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ShoulderYaw.STL" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0896121" length="0.06082252644344949"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000007 -0.000004 -0.007396" rpy="-3.0024238046134086 0.2429098209130052 -2.103907539504161"/>
+      <geometry>
+        <sphere radius="0.0896121"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.014622 0.008186 -0.065862" rpy="-3.0024238046134086 0.2429098209130052 -2.103907539504161"/>
+      <geometry>
+        <sphere radius="0.0896121"/>
       </geometry>
     </collision>
   </link>
@@ -424,9 +568,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-0.00746020465 0.0408499 -0.0404292381" rpy="0.33854605247629793 0.17337814940326016 0.029704070188628324"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/Elbow.STL" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0600429" length="0.08713418572944408"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.014976 0.055102 -0.080907" rpy="0.33854605247629793 0.17337814940326016 0.029704070188628324"/>
+      <geometry>
+        <sphere radius="0.0600429"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000056 0.026598 0.000049" rpy="0.33854605247629793 0.17337814940326016 0.029704070188628324"/>
+      <geometry>
+        <sphere radius="0.0600429"/>
       </geometry>
     </collision>
   </link>
@@ -446,9 +602,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-3.7982729999999996e-06 -0.00576208 -0.08227100000000001" rpy="0.19504999679008256 0.00010897068899718279 1.0661187695164793e-05"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/Forearm.STL" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0804108" length="0.08434739747702548"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000008 0.002412 -0.123645" rpy="0.19504999679008256 0.00010897068899718279 1.0661187695164793e-05"/>
+      <geometry>
+        <sphere radius="0.0804108"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000001 -0.013936 -0.040897" rpy="0.19504999679008256 0.00010897068899718279 1.0661187695164793e-05"/>
+      <geometry>
+        <sphere radius="0.0804108"/>
       </geometry>
     </collision>
   </link>
@@ -467,9 +635,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="1.1095500000000002e-06 0.04345545 -0.05749733" rpy="0.15592455942442648 -0.0006430984043059979 -5.0239247340461654e-05"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ForearmPitch.STL" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0583263" length="0.11425141871384588"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000038 0.052327 -0.113930" rpy="0.15592455942442648 -0.0006430984043059979 -5.0239247340461654e-05"/>
+      <geometry>
+        <sphere radius="0.0583263"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000036 0.034584 -0.001065" rpy="0.15592455942442648 -0.0006430984043059979 -5.0239247340461654e-05"/>
+      <geometry>
+        <sphere radius="0.0583263"/>
       </geometry>
     </collision>
   </link>
@@ -488,9 +668,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.0 0.0 0.0101335" rpy="1.5707963267948966 -0.2627330208352526 -0.2627330208352526"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/ForearmYaw.STL" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0207073" length="0.009167307493588288"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.001190 0.004426 0.010134" rpy="1.5707963267948966 -0.2627330208352526 -0.2627330208352526"/>
+      <geometry>
+        <sphere radius="0.0207073"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.001190 -0.004426 0.010134" rpy="1.5707963267948966 -0.2627330208352526 -0.2627330208352526"/>
+      <geometry>
+        <sphere radius="0.0207073"/>
       </geometry>
     </collision>
   </link>
@@ -603,9 +795,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
-      <geometry name="ball1_collision">
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/BallHand.stl" scale="0.001 0.001 0.001"/>
+      <origin xyz="-2.6819999999999855e-07 1.2015000000000003e-06 -0.0105021" rpy="-1.5654390438571615 -1.1857782102348717 1.1808181135942444"/>
+      <geometry>
+        <cylinder radius="0.0709883" length="9.940076835940455e-05"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000046 -0.000017 -0.010502" rpy="-1.5654390438571615 -1.1857782102348717 1.1808181135942444"/>
+      <geometry>
+        <sphere radius="0.0709883"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000046 0.000020 -0.010502" rpy="-1.5654390438571615 -1.1857782102348717 1.1808181135942444"/>
+      <geometry>
+        <sphere radius="0.0709883"/>
       </geometry>
     </collision>
   </link>
@@ -645,9 +849,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
-      <geometry name="ball2_collision">
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/BallHand.stl" scale="0.001 0.001 0.001"/>
+      <origin xyz="-2.6819999999999855e-07 1.2015000000000003e-06 -0.0105021" rpy="-1.5654390438571615 -1.1857782102348717 1.1808181135942444"/>
+      <geometry>
+        <cylinder radius="0.0709883" length="9.940076835940455e-05"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000046 -0.000017 -0.010502" rpy="-1.5654390438571615 -1.1857782102348717 1.1808181135942444"/>
+      <geometry>
+        <sphere radius="0.0709883"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000046 0.000020 -0.010502" rpy="-1.5654390438571615 -1.1857782102348717 1.1808181135942444"/>
+      <geometry>
+        <sphere radius="0.0709883"/>
       </geometry>
     </collision>
   </link>
@@ -688,9 +904,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0 0.0"/>
+      <origin xyz="0.006498149999999998 -1.4782499999999998e-06 0.1544216" rpy="0.00021616021402232196 0.3728341899733125 4.076931979237498e-05"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/head-base_mesh.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.100414" length="0.16454098025546557"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.023469 0.000015 0.077803" rpy="0.00021616021402232196 0.3728341899733125 4.076931979237498e-05"/>
+      <geometry>
+        <sphere radius="0.100414"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.036466 -0.000018 0.231040" rpy="0.00021616021402232196 0.3728341899733125 4.076931979237498e-05"/>
+      <geometry>
+        <sphere radius="0.100414"/>
       </geometry>
     </collision>
   </link>
@@ -708,9 +936,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0 0.0"/>
+      <origin xyz="-0.0007438725 0.005083050000000001 0.008359974999999999" rpy="-1.5617654568599377 -0.08162793425341344 0.08089487547525437"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/lidar_mesh.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0544637" length="0.032463112134515464"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000580 -0.011094 0.008214" rpy="-1.5617654568599377 -0.08162793425341344 0.08089487547525437"/>
+      <geometry>
+        <sphere radius="0.0544637"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.002067 0.021260 0.008506" rpy="-1.5617654568599377 -0.08162793425341344 0.08089487547525437"/>
+      <geometry>
+        <sphere radius="0.0544637"/>
       </geometry>
     </collision>
   </link>
@@ -728,9 +968,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0 0.0"/>
+      <origin xyz="0.01553645 -0.004684799999999996 0.0025092235000000003" rpy="-1.5968195967793293 0.04575443525621143 -0.04696044351276075"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/simple/neck-pitch_mesh.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0261699" length="0.12134423548428976"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.012761 -0.065273 0.004086" rpy="-1.5968195967793293 0.04575443525621143 -0.04696044351276075"/>
+      <geometry>
+        <sphere radius="0.0261699"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.018312 0.055903 0.000932" rpy="-1.5968195967793293 0.04575443525621143 -0.04696044351276075"/>
+      <geometry>
+        <sphere radius="0.0261699"/>
       </geometry>
     </collision>
   </link>
@@ -1057,9 +1309,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0 0 0.03585"/>
+      <origin xyz="0.0 0.0 0.03585" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <cylinder length="0.0717" radius="0.0516"/>
+        <cylinder radius="0.0516" length="0.0717"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.000000 0.000000" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <sphere radius="0.0516"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.000000 0.071700" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <sphere radius="0.0516"/>
       </geometry>
     </collision>
   </link>
@@ -1419,9 +1683,21 @@
       <material name="T265_camera_aluminum"/>
     </visual>
     <collision>
-      <origin rpy="1.5707963267948966 0 1.5707963267948966" xyz="0 0 0"/>
+      <origin xyz="-0.0064037350000000015 -0.008331499999999999 7.158999999999612e-06" rpy="1.5683956607269751 0.002431176166064703 -3.128964044931256"/>
       <geometry>
-        <mesh filename="package://realsense_gazebo_description/meshes/t265_simplified.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0142751" length="0.1022528557886848"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.005758 -0.059454 -0.000116" rpy="1.5683956607269751 0.002431176166064703 -3.128964044931256"/>
+      <geometry>
+        <sphere radius="0.0142751"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.007050 0.042791 0.000130" rpy="1.5683956607269751 0.002431176166064703 -3.128964044931256"/>
+      <geometry>
+        <sphere radius="0.0142751"/>
       </geometry>
     </collision>
     <inertial>
@@ -1663,9 +1939,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.000123454 -0.011949659999999999 -0.0631367" rpy="-1.2794257859148763 0.011059385729693427 -0.008229300412466476"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-yaw.stl" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0747223" length="0.03069545889898954"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000046 -0.026650 -0.067545" rpy="-1.2794257859148763 0.011059385729693427 -0.008229300412466476"/>
+      <geometry>
+        <sphere radius="0.0747223"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000293 0.002750 -0.058728" rpy="-1.2794257859148763 0.011059385729693427 -0.008229300412466476"/>
+      <geometry>
+        <sphere radius="0.0747223"/>
       </geometry>
     </collision>
   </link>
@@ -1683,9 +1971,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="1.1069698e-06 -0.13974034 0.0170087" rpy="-1.590922320366177 -7.245623411688702e-06 7.392936162146956e-06"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 -0.001"/>
+        <cylinder radius="0.0808941" length="0.2919804521727749"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000002 -0.285701 0.019947" rpy="-1.590922320366177 -7.245623411688702e-06 7.392936162146956e-06"/>
+      <geometry>
+        <sphere radius="0.0808941"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.006220 0.014071" rpy="-1.590922320366177 -7.245623411688702e-06 7.392936162146956e-06"/>
+      <geometry>
+        <sphere radius="0.0808941"/>
       </geometry>
     </collision>
   </link>
@@ -1704,9 +2004,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-4.0765105e-06 0.0958646315 0.014374499999999998" rpy="-1.6091143483828545 -4.05121136335521e-05 4.209497746049719e-05"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/knee.stl" scale="0.001 0.001 -0.001"/>
+        <cylinder radius="0.0664305" length="0.19275022460612404"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000000 -0.000440 0.018067" rpy="-1.6091143483828545 -4.05121136335521e-05 4.209497746049719e-05"/>
+      <geometry>
+        <sphere radius="0.0664305"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000008 0.192169 0.010682" rpy="-1.6091143483828545 -4.05121136335521e-05 4.209497746049719e-05"/>
+      <geometry>
+        <sphere radius="0.0664305"/>
       </geometry>
     </collision>
   </link>
@@ -1724,9 +2036,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-3.39946e-05 -0.0238355765 -1.2084000000000002e-05" rpy="1.5740621233399696 0.0004934392809863637 0.0004950533903306543"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 -0.001"/>
+        <cylinder radius="0.0792379" length="0.049256315666076876"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000046 0.000792 0.000068" rpy="1.5740621233399696 0.0004934392809863637 0.0004950533903306543"/>
+      <geometry>
+        <sphere radius="0.0792379"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000022 -0.048464 -0.000093" rpy="1.5740621233399696 0.0004934392809863637 0.0004950533903306543"/>
+      <geometry>
+        <sphere radius="0.0792379"/>
       </geometry>
     </collision>
   </link>
@@ -1745,9 +2069,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-1.177807e-05 -0.001827005 -0.0652808" rpy="3.1390989814835946 0.0002409935691509803 0.1926856017007952"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-yaw.stl" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0813545" length="0.07370263129636398"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000021 -0.001735 -0.028430" rpy="3.1390989814835946 0.0002409935691509803 0.1926856017007952"/>
+      <geometry>
+        <sphere radius="0.0813545"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000003 -0.001919 -0.102132" rpy="3.1390989814835946 0.0002409935691509803 0.1926856017007952"/>
+      <geometry>
+        <sphere radius="0.0813545"/>
       </geometry>
     </collision>
   </link>
@@ -1765,9 +2101,21 @@
       <material name="black"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <cylinder length="0.11" radius="0.078"/>
+        <cylinder radius="0.078" length="0.11"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.000000 -0.055000" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <sphere radius="0.078"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.000000 0.055000" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <sphere radius="0.078"/>
       </geometry>
     </collision>
   </link>
@@ -1842,9 +2190,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.000123454 0.011949659999999999 -0.0631367" rpy="1.2794257859148763 0.011059385729693427 0.008229300412466476"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-yaw.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0747223" length="0.03069545889898954"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000046 0.026650 -0.067545" rpy="1.2794257859148763 0.011059385729693427 0.008229300412466476"/>
+      <geometry>
+        <sphere radius="0.0747223"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000293 -0.002750 -0.058728" rpy="1.2794257859148763 0.011059385729693427 0.008229300412466476"/>
+      <geometry>
+        <sphere radius="0.0747223"/>
       </geometry>
     </collision>
   </link>
@@ -1862,9 +2222,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="1.1069698e-06 -0.13974034 -0.0170087" rpy="-1.5506703332236162 -7.245623411688702e-06 7.1012460371042874e-06"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0808941" length="0.2919804521727749"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000002 -0.285701 -0.019947" rpy="-1.5506703332236162 -7.245623411688702e-06 7.1012460371042874e-06"/>
+      <geometry>
+        <sphere radius="0.0808941"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.006220 -0.014071" rpy="-1.5506703332236162 -7.245623411688702e-06 7.1012460371042874e-06"/>
+      <geometry>
+        <sphere radius="0.0808941"/>
       </geometry>
     </collision>
   </link>
@@ -1883,9 +2255,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-4.0765105e-06 0.0958646315 -0.014374499999999998" rpy="-1.5324783052069388 -4.051211363355209e-05 3.898876897123139e-05"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/knee.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0664305" length="0.19275022460612404"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000000 -0.000440 -0.018066" rpy="-1.5324783052069388 -4.051211363355209e-05 3.898876897123139e-05"/>
+      <geometry>
+        <sphere radius="0.0664305"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000008 0.192169 -0.010683" rpy="-1.5324783052069388 -4.051211363355209e-05 3.898876897123139e-05"/>
+      <geometry>
+        <sphere radius="0.0664305"/>
       </geometry>
     </collision>
   </link>
@@ -1903,9 +2287,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="2.2606999999999985e-07 -0.020764664999999998 0.000108892" rpy="-1.5912124764368596 0.00029736415014251105 -0.00030349800898839713"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0781037" length="0.047884051265172006"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000007 -0.044702 0.000598" rpy="-1.5912124764368596 0.00029736415014251105 -0.00030349800898839713"/>
+      <geometry>
+        <sphere radius="0.0781037"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000007 0.003172 -0.000380" rpy="-1.5912124764368596 0.00029736415014251105 -0.00030349800898839713"/>
+      <geometry>
+        <sphere radius="0.0781037"/>
       </geometry>
     </collision>
   </link>
@@ -1924,9 +2320,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-1.177807e-05 0.001827005 -0.0652808" rpy="-3.1390989814835946 0.0002409935691509803 -0.1926856017007952"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-yaw.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0813545" length="0.07370263129636398"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000021 0.001735 -0.028430" rpy="-3.1390989814835946 0.0002409935691509803 -0.1926856017007952"/>
+      <geometry>
+        <sphere radius="0.0813545"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000003 0.001919 -0.102132" rpy="-3.1390989814835946 0.0002409935691509803 -0.1926856017007952"/>
+      <geometry>
+        <sphere radius="0.0813545"/>
       </geometry>
     </collision>
   </link>
@@ -1944,9 +2352,21 @@
       <material name="black"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <cylinder length="0.11" radius="0.078"/>
+        <cylinder radius="0.078" length="0.11"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.000000 -0.055000" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <sphere radius="0.078"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.000000 0.055000" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <sphere radius="0.078"/>
       </geometry>
     </collision>
   </link>
@@ -2021,9 +2441,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.000123454 -0.011949659999999999 -0.0631367" rpy="-1.2794257859148763 0.011059385729693427 -0.008229300412466476"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-yaw.stl" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0747223" length="0.03069545889898954"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000046 -0.026650 -0.067545" rpy="-1.2794257859148763 0.011059385729693427 -0.008229300412466476"/>
+      <geometry>
+        <sphere radius="0.0747223"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000293 0.002750 -0.058728" rpy="-1.2794257859148763 0.011059385729693427 -0.008229300412466476"/>
+      <geometry>
+        <sphere radius="0.0747223"/>
       </geometry>
     </collision>
   </link>
@@ -2041,9 +2473,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="1.1069698e-06 -0.13974034 0.0170087" rpy="-1.590922320366177 -7.245623411688702e-06 7.392936162146956e-06"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 -0.001"/>
+        <cylinder radius="0.0808941" length="0.2919804521727749"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000002 -0.285701 0.019947" rpy="-1.590922320366177 -7.245623411688702e-06 7.392936162146956e-06"/>
+      <geometry>
+        <sphere radius="0.0808941"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.006220 0.014071" rpy="-1.590922320366177 -7.245623411688702e-06 7.392936162146956e-06"/>
+      <geometry>
+        <sphere radius="0.0808941"/>
       </geometry>
     </collision>
   </link>
@@ -2062,9 +2506,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-4.0765105e-06 0.0958646315 0.014374499999999998" rpy="-1.6091143483828545 -4.05121136335521e-05 4.209497746049719e-05"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/knee.stl" scale="0.001 0.001 -0.001"/>
+        <cylinder radius="0.0664305" length="0.19275022460612404"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000000 -0.000440 0.018067" rpy="-1.6091143483828545 -4.05121136335521e-05 4.209497746049719e-05"/>
+      <geometry>
+        <sphere radius="0.0664305"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000008 0.192169 0.010682" rpy="-1.6091143483828545 -4.05121136335521e-05 4.209497746049719e-05"/>
+      <geometry>
+        <sphere radius="0.0664305"/>
       </geometry>
     </collision>
   </link>
@@ -2082,9 +2538,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-3.39946e-05 -0.0238355765 -1.2084000000000002e-05" rpy="1.5740621233399696 0.0004934392809863637 0.0004950533903306543"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 -0.001"/>
+        <cylinder radius="0.0792379" length="0.049256315666076876"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000046 0.000792 0.000068" rpy="1.5740621233399696 0.0004934392809863637 0.0004950533903306543"/>
+      <geometry>
+        <sphere radius="0.0792379"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000022 -0.048464 -0.000093" rpy="1.5740621233399696 0.0004934392809863637 0.0004950533903306543"/>
+      <geometry>
+        <sphere radius="0.0792379"/>
       </geometry>
     </collision>
   </link>
@@ -2103,9 +2571,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-1.177807e-05 -0.001827005 -0.0652808" rpy="3.1390989814835946 0.0002409935691509803 0.1926856017007952"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-yaw.stl" scale="0.001 -0.001 0.001"/>
+        <cylinder radius="0.0813545" length="0.07370263129636398"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000021 -0.001735 -0.028430" rpy="3.1390989814835946 0.0002409935691509803 0.1926856017007952"/>
+      <geometry>
+        <sphere radius="0.0813545"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000003 -0.001919 -0.102132" rpy="3.1390989814835946 0.0002409935691509803 0.1926856017007952"/>
+      <geometry>
+        <sphere radius="0.0813545"/>
       </geometry>
     </collision>
   </link>
@@ -2123,9 +2603,21 @@
       <material name="black"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <cylinder length="0.11" radius="0.078"/>
+        <cylinder radius="0.078" length="0.11"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.000000 -0.055000" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <sphere radius="0.078"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.000000 0.055000" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <sphere radius="0.078"/>
       </geometry>
     </collision>
   </link>
@@ -2200,9 +2692,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="0.000123454 0.011949659999999999 -0.0631367" rpy="1.2794257859148763 0.011059385729693427 0.008229300412466476"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-yaw.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0747223" length="0.03069545889898954"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000046 0.026650 -0.067545" rpy="1.2794257859148763 0.011059385729693427 0.008229300412466476"/>
+      <geometry>
+        <sphere radius="0.0747223"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000293 -0.002750 -0.058728" rpy="1.2794257859148763 0.011059385729693427 0.008229300412466476"/>
+      <geometry>
+        <sphere radius="0.0747223"/>
       </geometry>
     </collision>
   </link>
@@ -2220,9 +2724,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="1.1069698e-06 -0.13974034 -0.0170087" rpy="-1.5506703332236162 -7.245623411688702e-06 7.1012460371042874e-06"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/hip-pitch.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0808941" length="0.2919804521727749"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000002 -0.285701 -0.019947" rpy="-1.5506703332236162 -7.245623411688702e-06 7.1012460371042874e-06"/>
+      <geometry>
+        <sphere radius="0.0808941"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.006220 -0.014071" rpy="-1.5506703332236162 -7.245623411688702e-06 7.1012460371042874e-06"/>
+      <geometry>
+        <sphere radius="0.0808941"/>
       </geometry>
     </collision>
   </link>
@@ -2241,9 +2757,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-4.0765105e-06 0.0958646315 -0.014374499999999998" rpy="-1.5324783052069388 -4.051211363355209e-05 3.898876897123139e-05"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/knee.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0664305" length="0.19275022460612404"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000000 -0.000440 -0.018066" rpy="-1.5324783052069388 -4.051211363355209e-05 3.898876897123139e-05"/>
+      <geometry>
+        <sphere radius="0.0664305"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000008 0.192169 -0.010683" rpy="-1.5324783052069388 -4.051211363355209e-05 3.898876897123139e-05"/>
+      <geometry>
+        <sphere radius="0.0664305"/>
       </geometry>
     </collision>
   </link>
@@ -2261,9 +2789,21 @@
       </geometry>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="2.2606999999999985e-07 -0.020764664999999998 0.000108892" rpy="-1.5912124764368596 0.00029736415014251105 -0.00030349800898839713"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-pitch.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0781037" length="0.047884051265172006"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000007 -0.044702 0.000598" rpy="-1.5912124764368596 0.00029736415014251105 -0.00030349800898839713"/>
+      <geometry>
+        <sphere radius="0.0781037"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000007 0.003172 -0.000380" rpy="-1.5912124764368596 0.00029736415014251105 -0.00030349800898839713"/>
+      <geometry>
+        <sphere radius="0.0781037"/>
       </geometry>
     </collision>
   </link>
@@ -2282,9 +2822,21 @@
       <material name="dark_grey"/>
     </visual>
     <collision>
-      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <origin xyz="-1.177807e-05 0.001827005 -0.0652808" rpy="-3.1390989814835946 0.0002409935691509803 -0.1926856017007952"/>
       <geometry>
-        <mesh filename="/home/idadiotis/ocs2_ws/src/ocs2_robotic_assets/resources/centauro/meshes/v2/collision/ankle-yaw.stl" scale="0.001 0.001 0.001"/>
+        <cylinder radius="0.0813545" length="0.07370263129636398"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000021 0.001735 -0.028430" rpy="-3.1390989814835946 0.0002409935691509803 -0.1926856017007952"/>
+      <geometry>
+        <sphere radius="0.0813545"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.000003 0.001919 -0.102132" rpy="-3.1390989814835946 0.0002409935691509803 -0.1926856017007952"/>
+      <geometry>
+        <sphere radius="0.0813545"/>
       </geometry>
     </collision>
   </link>
@@ -2302,9 +2854,21 @@
       <material name="black"/>
     </visual>
     <collision>
-      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <cylinder length="0.11" radius="0.078"/>
+        <cylinder radius="0.078" length="0.11"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.000000 -0.055000" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <sphere radius="0.078"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000000 0.000000 0.055000" rpy="0.0 0.0 0.0"/>
+      <geometry>
+        <sphere radius="0.078"/>
       </geometry>
     </collision>
   </link>
