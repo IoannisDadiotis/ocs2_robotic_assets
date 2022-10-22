@@ -22,6 +22,7 @@
         <cylinder radius="0.213204" length="0.38594139791384763"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="base_link" /></collision_checking>
   </link>
   <joint name="base_to_base_inertia" type="fixed">
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
@@ -59,6 +60,7 @@
         <cylinder radius="0.158224" length="0.09543675990850982"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="torso_2" /></collision_checking>
   </link>
   <joint name="torso_yaw" type="revolute">
     <origin xyz="0.2 0.0 0.256" rpy="0.0 0.0 0.0"/>
@@ -86,6 +88,7 @@
         <cylinder radius="0.0698859" length="0.03739768494560427"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm1_1" /></collision_checking>
   </link>
   <link name="arm1_2">
     <inertial>
@@ -105,6 +108,7 @@
         <cylinder radius="0.0700645" length="0.12799269981445732"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm1_2" /></collision_checking>
   </link>
   <link name="arm1_3">
     <inertial>
@@ -125,7 +129,8 @@
         <cylinder radius="0.0896121" length="0.06082252644344949"/>
       </geometry>
     </collision>
-  </link>
+    <collision_checking><capsule name="arm1_3" /></collision_checking>
+    </link>
   <link name="arm1_4">
     <inertial>
       <origin xyz="-0.0076833067 -0.040302205 -0.043492779" rpy="0.0 0.0 0.0"/>
@@ -144,6 +149,7 @@
         <cylinder radius="0.0600429" length="0.08713418572944408"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm1_4" /></collision_checking>
   </link>
   <link name="arm1_5">
     <inertial>
@@ -164,6 +170,7 @@
         <cylinder radius="0.0804108" length="0.08434739747702548"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm1_5" /></collision_checking>
   </link>
   <link name="arm1_6">
     <inertial>
@@ -183,6 +190,7 @@
         <cylinder radius="0.0583263" length="0.11425141871384588"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm1_6" /></collision_checking>
   </link>
   <link name="arm1_7">
     <inertial>
@@ -203,6 +211,7 @@
         <cylinder radius="0.0207073" length="0.009167307493588288"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm1_7" /></collision_checking>
   </link>
   <joint name="j_arm1_1" type="revolute">
     <origin xyz="0.0457475 0.169137 0.116626" rpy="0.174533 0.0 -0.5235988"/>
@@ -286,6 +295,7 @@
         <cylinder radius="0.0698859" length="0.03739768494560427"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm2_1" /></collision_checking>
   </link>
   <link name="arm2_2">
     <inertial>
@@ -305,6 +315,7 @@
         <cylinder radius="0.0700645" length="0.12799269981445732"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm2_2" /></collision_checking>
   </link>
   <link name="arm2_3">
     <inertial>
@@ -325,6 +336,7 @@
         <cylinder radius="0.0896121" length="0.06082252644344949"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm2_3" /></collision_checking>
   </link>
   <link name="arm2_4">
     <inertial>
@@ -344,6 +356,7 @@
         <cylinder radius="0.0600429" length="0.08713418572944408"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm2_4" /></collision_checking>
   </link>
   <link name="arm2_5">
     <inertial>
@@ -364,6 +377,7 @@
         <cylinder radius="0.0804108" length="0.08434739747702548"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm2_5" /></collision_checking>
   </link>
   <link name="arm2_6">
     <inertial>
@@ -383,6 +397,7 @@
         <cylinder radius="0.0583263" length="0.11425141871384588"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm2_6" /></collision_checking>
   </link>
   <link name="arm2_7">
     <inertial>
@@ -403,6 +418,7 @@
         <cylinder radius="0.0207073" length="0.009167307493588288"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="arm2_7" /></collision_checking>
   </link>
   <joint name="j_arm2_1" type="revolute">
     <origin xyz="0.0457475 -0.169137 0.116626" rpy="-0.174533 0.0 0.5235988"/>
@@ -486,11 +502,7 @@
         <cylinder radius="0.0709883" length="9.940076835940455e-05"/>
       </geometry>
     </collision>
-    <collision_checking>
-      <!--- This tells to pinocchio to replace the cylinder called "test"
-           by a capsule with the same radius and length -->
-      <capsule name="ball1"/>
-    </collision_checking>
+    <collision_checking><capsule name="ball1" /></collision_checking>
   </link>
   <link name="ball1_tip"/>
   <joint name="j_arm1_8" type="fixed">
@@ -532,6 +544,7 @@
         <cylinder radius="0.0709883" length="9.940076835940455e-05"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="ball2" /></collision_checking>
   </link>
   <link name="ball2_tip"/>
   <joint name="j_arm2_8" type="fixed">
@@ -572,6 +585,7 @@
         <cylinder radius="0.100414" length="0.16454098025546557"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="neck_1" /></collision_checking>
   </link>
   <link name="velodyne_motor">
     <inertial>
@@ -591,6 +605,7 @@
         <cylinder radius="0.0544637" length="0.032463112134515464"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="velodyne_motor" /></collision_checking>
   </link>
   <link name="d435_head_motor">
     <inertial>
@@ -610,6 +625,7 @@
         <cylinder radius="0.0261699" length="0.12134423548428976"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="d435_head_motor" /></collision_checking>
   </link>
   <joint name="neck_base" type="fixed">
     <origin xyz="0.0030637045 0.0061607221 0.158" rpy="0.0 0.0 0.0"/>
@@ -660,6 +676,7 @@
         <box size="0.02505 0.09 0.025"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="D435_head_camera_link" /></collision_checking>
   </link>
   <joint name="D435_head_camera_depth_joint" type="fixed">
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
@@ -912,6 +929,7 @@
         <cylinder radius="0.0516" length="0.0717"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="velodyne_calib_base_link" /></collision_checking>
   </link>
   <joint name="velodyne_calib_base_scan_joint" type="fixed">
     <origin xyz="0.0 0.0 0.0377" rpy="0.0 0.0 0.0"/>
@@ -1005,6 +1023,7 @@
         <box size="0.02505 0.09 0.025"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="D435i_camera_link" /></collision_checking>
   </link>
   <joint name="D435i_camera_depth_joint" type="fixed">
     <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
@@ -1257,6 +1276,7 @@
         <cylinder radius="0.0142751" length="0.1022528557886848"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="T265_camera_pose_frame" /></collision_checking>
   </link>
   <joint name="T265_camera_link_joint" type="fixed">
     <origin xyz="0.0 0.0 0.0" rpy="1.5707963267948966 0.0 -1.5707963267948966"/>
@@ -1463,7 +1483,7 @@
         <cylinder radius="0.0747223" length="0.03069545889898954"/>
       </geometry>
     </collision>
-  </link>
+  <collision_checking><capsule name="hip1_1" /></collision_checking></link>
   <link name="hip2_1">
     <inertial>
       <origin xyz="-4.6285952e-06 -0.2214019 0.03316685" rpy="0.0 0.0 0.0"/>
@@ -1482,11 +1502,7 @@
         <cylinder radius="0.0808941" length="0.2919804521727749"/>
       </geometry>
     </collision>
-    <collision_checking>
-      <!--- This tells to pinocchio to replace the cylinder called "test"
-           by a capsule with the same radius and length -->
-      <capsule name="hip2_1"/>
-    </collision_checking>
+    <collision_checking><capsule name="hip2_1" /></collision_checking>
   </link>
   <link name="knee_1">
     <inertial>
@@ -1507,6 +1523,7 @@
         <cylinder radius="0.0664305" length="0.19275022460612404"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="knee_1" /></collision_checking>
   </link>
   <link name="ankle1_1">
     <inertial>
@@ -1526,6 +1543,7 @@
         <cylinder radius="0.0792379" length="0.049256315666076876"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="ankle1_1" /></collision_checking>
   </link>
   <link name="ankle2_1">
     <inertial>
@@ -1546,6 +1564,7 @@
         <cylinder radius="0.0813545" length="0.07370263129636398"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="ankle2_1" /></collision_checking>
   </link>
   <link name="wheel_1">
     <inertial>
@@ -1566,6 +1585,7 @@
         <cylinder radius="0.078" length="0.11"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="wheel_1" /></collision_checking>
   </link>
   <link name="contact_1"/>
   <joint name="contact_joint_1" type="fixed">
@@ -1634,6 +1654,7 @@
         <cylinder radius="0.0747223" length="0.03069545889898954"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="hip1_2" /></collision_checking>
   </link>
   <link name="hip2_2">
     <inertial>
@@ -1653,6 +1674,7 @@
         <cylinder radius="0.0808941" length="0.2919804521727749"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="hip2_2" /></collision_checking>
   </link>
   <link name="knee_2">
     <inertial>
@@ -1673,6 +1695,7 @@
         <cylinder radius="0.0664305" length="0.19275022460612404"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="knee_2" /></collision_checking>
   </link>
   <link name="ankle1_2">
     <inertial>
@@ -1692,6 +1715,7 @@
         <cylinder radius="0.0781037" length="0.047884051265172006"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="ankle1_2" /></collision_checking>
   </link>
   <link name="ankle2_2">
     <inertial>
@@ -1712,6 +1736,7 @@
         <cylinder radius="0.0813545" length="0.07370263129636398"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="ankle2_2" /></collision_checking>
   </link>
   <link name="wheel_2">
     <inertial>
@@ -1732,6 +1757,7 @@
         <cylinder radius="0.078" length="0.11"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="wheel_2" /></collision_checking>
   </link>
   <link name="contact_2"/>
   <joint name="contact_joint_2" type="fixed">
@@ -1800,6 +1826,7 @@
         <cylinder radius="0.0747223" length="0.03069545889898954"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="hip1_3" /></collision_checking>
   </link>
   <link name="hip2_3">
     <inertial>
@@ -1819,6 +1846,7 @@
         <cylinder radius="0.0808941" length="0.2919804521727749"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="hip2_3" /></collision_checking>
   </link>
   <link name="knee_3">
     <inertial>
@@ -1839,6 +1867,7 @@
         <cylinder radius="0.0664305" length="0.19275022460612404"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="knee_3" /></collision_checking>
   </link>
   <link name="ankle1_3">
     <inertial>
@@ -1858,6 +1887,7 @@
         <cylinder radius="0.0792379" length="0.049256315666076876"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="ankle1_3" /></collision_checking>
   </link>
   <link name="ankle2_3">
     <inertial>
@@ -1878,6 +1908,7 @@
         <cylinder radius="0.0813545" length="0.07370263129636398"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="ankle2_3" /></collision_checking>
   </link>
   <link name="wheel_3">
     <inertial>
@@ -1898,6 +1929,7 @@
         <cylinder radius="0.078" length="0.11"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="wheel_3" /></collision_checking>
   </link>
   <link name="contact_3"/>
   <joint name="contact_joint_3" type="fixed">
@@ -1966,6 +1998,7 @@
         <cylinder radius="0.0747223" length="0.03069545889898954"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="hip1_4" /></collision_checking>
   </link>
   <link name="hip2_4">
     <inertial>
@@ -1985,6 +2018,7 @@
         <cylinder radius="0.0808941" length="0.2919804521727749"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="hip2_4" /></collision_checking>
   </link>
   <link name="knee_4">
     <inertial>
@@ -2005,6 +2039,7 @@
         <cylinder radius="0.0664305" length="0.19275022460612404"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="knee_4" /></collision_checking>
   </link>
   <link name="ankle1_4">
     <inertial>
@@ -2024,6 +2059,7 @@
         <cylinder radius="0.0781037" length="0.047884051265172006"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="ankle1_4" /></collision_checking>
   </link>
   <link name="ankle2_4">
     <inertial>
@@ -2044,6 +2080,7 @@
         <cylinder radius="0.0813545" length="0.07370263129636398"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="ankle2_4" /></collision_checking>
   </link>
   <link name="wheel_4">
     <inertial>
@@ -2064,6 +2101,7 @@
         <cylinder radius="0.078" length="0.11"/>
       </geometry>
     </collision>
+    <collision_checking><capsule name="wheel_4" /></collision_checking>
   </link>
   <link name="contact_4"/>
   <joint name="contact_joint_4" type="fixed">
