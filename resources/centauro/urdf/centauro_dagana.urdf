@@ -439,10 +439,10 @@
       <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0"/>
     </inertial>
   </link>
-
+  
   <!-- dagana related replacing ball2 -->
   <joint name="dagana_2_mount_joint" type="fixed">
-    <origin xyz="0.0 0.05 -0.08" rpy="0.0 3.14159265359 3.14159265359"/>
+    <origin xyz="0.0 0.05 -0.08" rpy="0.0 3.14159265359 0"/>
     <parent link="arm2_6"/>
     <child link="dagana_2_top_link"/>
   </joint>
@@ -497,7 +497,6 @@
     <collision_checking><capsule name="dagana_2_bottom_link" /></collision_checking>
     -->
   </link>
-  
   <!-- Manually put to have a transform in a "good" grasping spot-->
   <joint name="dagana_2_tcp_joint" type="fixed">
     <origin rpy="0 0 0" xyz="0 -0.05 0.15"/>
@@ -1497,49 +1496,49 @@
   </link>
   <link name="ankle2_1">
     <inertial>
-      <origin xyz="0.0018496706 -0.00051322371 -0.06730924" rpy="0.0 0.0 0.0"/>
-      <mass value="1.7656714"/>
-      <inertia ixx="0.0073976286" ixy="9.7557687e-07" ixz="-0.0002295255" iyy="0.0054434358" iyz="3.6337754e-05" izz="0.0043055053"/>
+      <origin xyz="0.00018512273 0.0017369405000000001 -0.091340683"/>
+      <mass value="2.440929"/>
+      <inertia ixx="0.017711499" ixy="1.0713141e-05" ixz="-2.2094697e-05" iyy="0.014263485" iyz="0.00033426702" izz="0.0080747557"/>
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/ankle-yaw.stl" scale="0.001 -0.001 0.001"/>
+        <mesh filename="package://centauro_urdf/meshes/v2/mesh_ankle-yaw_wheel23.stl" scale="0.001 -0.001 0.001"/>
       </geometry>
       <material name="dark_grey"/>
     </visual>
     <collision name="ankle2_1">
-      <origin xyz="-1.177807e-05 -0.001827005 -0.0652808" rpy="3.1390989814835946 0.0002409935691509803 0.1926856017007952"/>
+      <origin xyz="7.660185e-06 1.8502850000000002e-05 -0.074374825" rpy="-7.419312771134829e-05 -4.365071188304786e-05 1.6192914200839787e-09"/>
       <geometry>
-        <cylinder radius="0.0813545" length="0.07370263129636398"/>
+        <cylinder radius="0.08586" length="0.13078435048455633"/>
       </geometry>
     </collision>
     <collision_checking><capsule name="ankle2_1" /></collision_checking>
   </link>
   <link name="wheel_1">
     <inertial>
-      <origin xyz="0.0 0.0 -0.0031155904" rpy="0.0 0.0 0.0"/>
-      <mass value="1.11164"/>
-      <inertia ixx="0.0028174054" ixy="0.0" ixz="-0.0" iyy="0.0028175648" iyz="-0.0" izz="0.0041817161999999995"/>
+      <origin xyz="0.0 0.0 0.00015403767"/>
+      <mass value="1.8569388"/>
+      <inertia ixx="0.008637359099999999" ixy="0.0" ixz="-0.0" iyy="0.0086373644" iyz="-0.0" izz="0.016376551"/>
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/wheel.stl" scale="0.001 0.001 -0.001"/>
+        <mesh filename="package://centauro_urdf/meshes/v2/mesh_wheel23.stl" scale="0.001 0.001 -0.001"/>
       </geometry>
       <material name="black"/>
     </visual>
     <collision name="wheel_1">
-      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <origin xyz="-3.3094249999999996e-05 -5.490949999999999e-05 -0.0005398675" rpy="1.5816328784466134 -0.48253134991153823 -0.4875840488446713"/>
       <geometry>
-        <cylinder radius="0.078" length="0.11"/>
+        <cylinder radius="0.119659" length="0.0004424382093719415"/>
       </geometry>
     </collision>
     <collision_checking><capsule name="wheel_1" /></collision_checking>
   </link>
   <link name="contact_1"/>
   <joint name="contact_joint_1" type="fixed">
-    <origin xyz="0.0 0.0 -0.176" rpy="0.0 0.0 0.0"/>
+    <origin rpy="0 0 0" xyz="0 0 -0.26835"/>
     <parent link="ankle2_1"/>
     <child link="contact_1"/>
   </joint>
@@ -1579,11 +1578,12 @@
     <limit effort="35.0" lower="-2.5626" upper="2.5384" velocity="20.0"/>
   </joint>
   <joint name="j_wheel_1" type="revolute">
-    <origin xyz="0.0 -0.0 -0.09834999999999999" rpy="1.57079632679 0.0 0.0"/>
-    <axis xyz="0.0 0.0 -1.0"/>
     <parent link="ankle2_1"/>
     <child link="wheel_1"/>
-    <limit effort="35.0" lower="-62.83" upper="62.83" velocity="20.0"/>
+    <origin rpy="1.57079632679 0.0 0.0" xyz="0.0 -0.0 -0.14435"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="35" lower="-62.83" upper="62.83" velocity="20.0"/>
+    <!-- 23 Nm, 1 rad/s-->
   </joint>
   <link name="hip1_2">
     <inertial>
@@ -1669,49 +1669,49 @@
   </link>
   <link name="ankle2_2">
     <inertial>
-      <origin xyz="0.0018496706 0.00051322371 -0.06730924" rpy="0.0 0.0 0.0"/>
-      <mass value="1.7656714"/>
-      <inertia ixx="0.0073976286" ixy="-9.7557687e-07" ixz="-0.0002295255" iyy="0.0054434358" iyz="-3.6337754e-05" izz="0.0043055053"/>
+      <origin xyz="0.00018512273 -0.0017369405000000001 -0.091340683"/>
+      <mass value="2.440929"/>
+      <inertia ixx="0.017711499" ixy="-1.0713141e-05" ixz="-2.2094697e-05" iyy="0.014263485" iyz="-0.00033426702" izz="0.0080747557"/>
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/ankle-yaw.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://centauro_urdf/meshes/v2/mesh_ankle-yaw_wheel23.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dark_grey"/>
     </visual>
     <collision name="ankle2_2">
-      <origin xyz="-1.177807e-05 0.001827005 -0.0652808" rpy="-3.1390989814835946 0.0002409935691509803 -0.1926856017007952"/>
+      <origin xyz="7.660185e-06 -1.8502850000000002e-05 -0.074374825" rpy="-3.141518460462082 4.365071188311448e-05 -1.0636022462194945"/>
       <geometry>
-        <cylinder radius="0.0813545" length="0.07370263129636398"/>
+        <cylinder radius="0.08586" length="0.13078435048455633"/>
       </geometry>
     </collision>
     <collision_checking><capsule name="ankle2_2" /></collision_checking>
   </link>
   <link name="wheel_2">
     <inertial>
-      <origin xyz="0.0 0.0 0.0031155904" rpy="0.0 0.0 0.0"/>
-      <mass value="1.11164"/>
-      <inertia ixx="0.0028174054" ixy="0.0" ixz="0.0" iyy="0.0028175648" iyz="0.0" izz="0.0041817161999999995"/>
+      <origin xyz="0.0 0.0 -0.00015403767"/>
+      <mass value="1.8569388"/>
+      <inertia ixx="0.008637359099999999" ixy="0.0" ixz="0.0" iyy="0.0086373644" iyz="0.0" izz="0.016376551"/>
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/wheel.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://centauro_urdf/meshes/v2/mesh_wheel23.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="black"/>
     </visual>
     <collision name="wheel_2">
-      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <origin xyz="-3.3094249999999996e-05 -5.490949999999999e-05 0.0005398675" rpy="1.55995977514318 -0.48253134991153823 -0.47752692177837863"/>
       <geometry>
-        <cylinder radius="0.078" length="0.11"/>
+        <cylinder radius="0.119659" length="0.0004424382093719415"/>
       </geometry>
     </collision>
     <collision_checking><capsule name="wheel_2" /></collision_checking>
   </link>
   <link name="contact_2"/>
   <joint name="contact_joint_2" type="fixed">
-    <origin xyz="0.0 0.0 -0.176" rpy="0.0 0.0 0.0"/>
+    <origin rpy="0 0 0" xyz="0 0 -0.26835"/>
     <parent link="ankle2_2"/>
     <child link="contact_2"/>
   </joint>
@@ -1751,11 +1751,12 @@
     <limit effort="35.0" lower="-2.5546" upper="2.5484" velocity="20.0"/>
   </joint>
   <joint name="j_wheel_2" type="revolute">
-    <origin xyz="0.0 0.0 -0.09834999999999999" rpy="1.57079632679 0.0 0.0"/>
-    <axis xyz="0.0 0.0 1.0"/>
     <parent link="ankle2_2"/>
     <child link="wheel_2"/>
-    <limit effort="35.0" lower="-62.83" upper="62.83" velocity="20.0"/>
+    <origin rpy="1.57079632679 0.0 0.0" xyz="0.0 0.0 -0.14435"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="35" lower="-62.83" upper="62.83" velocity="20.0"/>
+    <!-- 23 Nm, 1 rad/s-->
   </joint>
   <link name="hip1_3">
     <inertial>
@@ -1841,49 +1842,49 @@
   </link>
   <link name="ankle2_3">
     <inertial>
-      <origin xyz="0.0018496706 -0.00051322371 -0.06730924" rpy="0.0 0.0 0.0"/>
-      <mass value="1.7656714"/>
-      <inertia ixx="0.0073976286" ixy="9.7557687e-07" ixz="-0.0002295255" iyy="0.0054434358" iyz="3.6337754e-05" izz="0.0043055053"/>
+      <origin xyz="0.00018512273 0.0017369405000000001 -0.091340683"/>
+      <mass value="2.440929"/>
+      <inertia ixx="0.017711499" ixy="1.0713141e-05" ixz="-2.2094697e-05" iyy="0.014263485" iyz="0.00033426702" izz="0.0080747557"/>
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/ankle-yaw.stl" scale="0.001 -0.001 0.001"/>
+        <mesh filename="package://centauro_urdf/meshes/v2/mesh_ankle-yaw_wheel23.stl" scale="0.001 -0.001 0.001"/>
       </geometry>
       <material name="dark_grey"/>
     </visual>
     <collision name="ankle2_3">
-      <origin xyz="-1.177807e-05 -0.001827005 -0.0652808" rpy="3.1390989814835946 0.0002409935691509803 0.1926856017007952"/>
+      <origin xyz="7.660185e-06 1.8502850000000002e-05 -0.074374825" rpy="-7.419312771134828e-05 -4.365071188304787e-05 1.6192914200839787e-09"/>
       <geometry>
-        <cylinder radius="0.0813545" length="0.07370263129636398"/>
+        <cylinder radius="0.08586" length="0.13078435048455633"/>
       </geometry>
     </collision>
     <collision_checking><capsule name="ankle2_3" /></collision_checking>
   </link>
   <link name="wheel_3">
     <inertial>
-      <origin xyz="0.0 0.0 -0.0031155904" rpy="0.0 0.0 0.0"/>
-      <mass value="1.11164"/>
-      <inertia ixx="0.0028174054" ixy="0.0" ixz="-0.0" iyy="0.0028175648" iyz="-0.0" izz="0.0041817161999999995"/>
+      <origin xyz="0.0 0.0 0.00015403767"/>
+      <mass value="1.8569388"/>
+      <inertia ixx="0.008637359099999999" ixy="0.0" ixz="-0.0" iyy="0.0086373644" iyz="-0.0" izz="0.016376551"/>
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/wheel.stl" scale="0.001 0.001 -0.001"/>
+        <mesh filename="package://centauro_urdf/meshes/v2/mesh_wheel23.stl" scale="0.001 0.001 -0.001"/>
       </geometry>
       <material name="black"/>
     </visual>
     <collision name="wheel_3">
-      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <origin xyz="-3.3094249999999996e-05 -5.490949999999999e-05 -0.0005398675" rpy="1.5816328784466134 -0.4825313499115383 -0.4875840488446713"/>
       <geometry>
-        <cylinder radius="0.078" length="0.11"/>
+        <cylinder radius="0.119659" length="0.0004424382093719415"/>
       </geometry>
     </collision>
     <collision_checking><capsule name="wheel_3" /></collision_checking>
   </link>
   <link name="contact_3"/>
   <joint name="contact_joint_3" type="fixed">
-    <origin xyz="0.0 0.0 -0.176" rpy="0.0 0.0 0.0"/>
+    <origin rpy="0 0 0" xyz="0 0 -0.26835"/>
     <parent link="ankle2_3"/>
     <child link="contact_3"/>
   </joint>
@@ -1923,11 +1924,12 @@
     <limit effort="35.0" lower="-2.5606" upper="2.5454" velocity="20.0"/>
   </joint>
   <joint name="j_wheel_3" type="revolute">
-    <origin xyz="0.0 -0.0 -0.09834999999999999" rpy="1.57079632679 0.0 0.0"/>
-    <axis xyz="0.0 0.0 -1.0"/>
     <parent link="ankle2_3"/>
     <child link="wheel_3"/>
-    <limit effort="35.0" lower="-62.83" upper="62.83" velocity="20.0"/>
+    <origin rpy="1.57079632679 0.0 0.0" xyz="0.0 -0.0 -0.14435"/>
+    <axis xyz="0 0 -1"/>
+    <limit effort="35" lower="-62.83" upper="62.83" velocity="20.0"/>
+    <!-- 23 Nm, 1 rad/s-->
   </joint>
   <link name="hip1_4">
     <inertial>
@@ -2013,49 +2015,49 @@
   </link>
   <link name="ankle2_4">
     <inertial>
-      <origin xyz="0.0018496706 0.00051322371 -0.06730924" rpy="0.0 0.0 0.0"/>
-      <mass value="1.7656714"/>
-      <inertia ixx="0.0073976286" ixy="-9.7557687e-07" ixz="-0.0002295255" iyy="0.0054434358" iyz="-3.6337754e-05" izz="0.0043055053"/>
+      <origin xyz="0.00018512273 -0.0017369405000000001 -0.091340683"/>
+      <mass value="2.440929"/>
+      <inertia ixx="0.017711499" ixy="-1.0713141e-05" ixz="-2.2094697e-05" iyy="0.014263485" iyz="-0.00033426702" izz="0.0080747557"/>
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/ankle-yaw.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://centauro_urdf/meshes/v2/mesh_ankle-yaw_wheel23.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="dark_grey"/>
     </visual>
     <collision name="ankle2_4">
-      <origin xyz="-1.177807e-05 0.001827005 -0.0652808" rpy="-3.1390989814835946 0.0002409935691509803 -0.1926856017007952"/>
+      <origin xyz="7.660185e-06 -1.8502850000000002e-05 -0.074374825" rpy="-3.141518460462082 4.3650711883114486e-05 -1.0636022462194945"/>
       <geometry>
-        <cylinder radius="0.0813545" length="0.07370263129636398"/>
+        <cylinder radius="0.08586" length="0.13078435048455633"/>
       </geometry>
     </collision>
     <collision_checking><capsule name="ankle2_4" /></collision_checking>
   </link>
   <link name="wheel_4">
     <inertial>
-      <origin xyz="0.0 0.0 0.0031155904" rpy="0.0 0.0 0.0"/>
-      <mass value="1.11164"/>
-      <inertia ixx="0.0028174054" ixy="0.0" ixz="0.0" iyy="0.0028175648" iyz="0.0" izz="0.0041817161999999995"/>
+      <origin xyz="0.0 0.0 -0.00015403767"/>
+      <mass value="1.8569388"/>
+      <inertia ixx="0.008637359099999999" ixy="0.0" ixz="0.0" iyy="0.0086373644" iyz="0.0" izz="0.016376551"/>
     </inertial>
     <visual>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
       <geometry>
-        <mesh filename="package://centauro_urdf/meshes/v2/wheel.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://centauro_urdf/meshes/v2/mesh_wheel23.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="black"/>
     </visual>
     <collision name="wheel_4">
-      <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+      <origin xyz="-3.3094249999999996e-05 -5.490949999999999e-05 0.0005398675" rpy="1.55995977514318 -0.4825313499115383 -0.47752692177837863"/>
       <geometry>
-        <cylinder radius="0.078" length="0.11"/>
+        <cylinder radius="0.119659" length="0.0004424382093719415"/>
       </geometry>
     </collision>
     <collision_checking><capsule name="wheel_4" /></collision_checking>
   </link>
   <link name="contact_4"/>
   <joint name="contact_joint_4" type="fixed">
-    <origin xyz="0.0 0.0 -0.176" rpy="0.0 0.0 0.0"/>
+    <origin rpy="0 0 0" xyz="0 0 -0.26835"/>
     <parent link="ankle2_4"/>
     <child link="contact_4"/>
   </joint>
@@ -2095,11 +2097,12 @@
     <limit effort="35.0" lower="-2.6046" upper="2.5514" velocity="20.0"/>
   </joint>
   <joint name="j_wheel_4" type="revolute">
-    <origin xyz="0.0 0.0 -0.09834999999999999" rpy="1.57079632679 0.0 0.0"/>
-    <axis xyz="0.0 0.0 1.0"/>
     <parent link="ankle2_4"/>
     <child link="wheel_4"/>
-    <limit effort="35.0" lower="-62.83" upper="62.83" velocity="20.0"/>
+    <origin rpy="1.57079632679 0.0 0.0" xyz="0.0 0.0 -0.14435"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="35" lower="-62.83" upper="62.83" velocity="20.0"/>
+    <!-- 23 Nm, 1 rad/s-->
   </joint>
 </robot>
 
